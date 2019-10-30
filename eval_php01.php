@@ -1,3 +1,5 @@
+<?php
+/*
 Evaluation PHP 01
 
 Consignes: respecter les coding standards PSR-1 et PSR-12
@@ -17,6 +19,9 @@ isVoyelle($lettre) : boolean
 Tester votre fonction avec les paramètres suivants:
 'a', 'b', 'c', 'A', 'E', true, false, 0, 1, 2 et 'bonjour'
 
+
+
+
 2 - écrire une fonction qui supprime les voyelles d'une chaine de caractère.
 La fonction retourne la chaine d'origine sans les voyelles.
 Utiliser la fonction isVoyelle() écrite précédement.
@@ -25,6 +30,9 @@ prototype de la fonction:
 supprimerVoyelles($chaine) : string
 Tester votre fonction avec les paramètres suivants:
 'bonjour', 'hello world', 'eau', 0, 1, 2, 42, true, false
+
+
+
 
 3 - Généralisation des fonctions précédentes: écrire une fonction
 qui supprime les lettres passées en paramètres dans
@@ -44,6 +52,10 @@ et les paramètres suivants pour les lettres à supprimer:
 '0123', 'eau' et 'hlwrd'
 Tester toutes les combinaisons de paramètres possibles.
 
+
+
 4 - Ré-écrire la fonction supprimerVoyelles() en utilisant les fonctions
 écrites dans le point 3.
 Conserver la version précédente de la fonction supprimerVoyelles() pour correction
+*/
+
