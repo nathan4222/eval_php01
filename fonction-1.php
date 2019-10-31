@@ -1,5 +1,5 @@
 <?php
-/*
+
 function isVoyelle ($lettre) {
     if (($lettre == 'a')||($lettre == 'e')||($lettre == 'i')||($lettre == 'o')
     ||($lettre == 'u')||($lettre == 'y')||($lettre == 'A')||($lettre == 'E')
@@ -10,9 +10,16 @@ function isVoyelle ($lettre) {
         echo "False";
     }
 }
-*/
 
-function isVoyelle ($lettre) {
-    $lettre = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
-$onlyconsonants = str_replace($lettre, "", "Hello World of PHP");
+
+function supprimerVoyelles($chaine)
+{
+ $chaine_reponse = "";
+ for($i=0; $i<strlen($chaine); $i++) {
+   $lettre = $chaine[$i];
+   if (!isVoyelle($lettre)) {
+     $chaine_reponse = $chaine_reponse . $lettre;
+   }
+ }
+ return($chaine_reponse);
 }
